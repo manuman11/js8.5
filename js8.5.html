@@ -1,16 +1,16 @@
 <script>
 
 // Demander à l'utilisateur de saisir un mot
-let mot = prompt("Entrez un mot :");
+mot = prompt("Entrez un mot :");
 
 // Initialiser le nombre de voyelles à 0
-let nbVoyelles = 0;
+    nbVoyelles = 0;
 
 // Parcourir chaque lettre du mot
-for (let i = 0; i < mot.length; i++) {
+for (i = 0; i < mot.length; i++) {
   
   // Récupérer la lettre en cours
-  let lettre = mot.substring(i, i+1);
+      lettre = mot.substring(i, i+1);
   
   // Vérifier si la lettre est une voyelle
   if ("aeiouy".indexOf(lettre) >= 0) {
